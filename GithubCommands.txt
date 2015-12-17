@@ -5,3 +5,9 @@ git add: adds files from the working directory to the staging area
 git diff: shows the difference between the working directory and the staging area
 git commit: permanently stores file changes from the staging area in the repository
 git log: shows a list of all previous commits
+
+
+#Use Git Commands to backtrack in Git project:
+git checkout HEAD filename: Discards changes in the working directory.
+git reset HEAD filename: Unstages file changes in the staging area.
+git reset SHA: Can be used to reset to a previous commit in your commit history.
