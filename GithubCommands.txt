@@ -1,0 +1,46 @@
+Chapter -1
+#Use Git commands to help keep track of changes made to a project:
+a.git init: creates a new Git repository
+b.git status: inspects the contents of the working directory and staging area
+c.git add: adds files from the working directory to the staging area
+d.git diff: shows the difference between the working directory and the staging area
+e.git commit: permanently stores file changes from the staging area in the repository
+f.git log: shows a list of all previous commits
+
+
+Chapter -2
+#Use Git Commands to backtrack in Git project:
+a.git checkout HEAD filename: Discards changes in the working directory.
+b.git reset HEAD filename: Unstages file changes in the staging area.
+c.git reset SHA: Can be used to reset to a previous commit in your commit history.
+d.git add filename_1 filename_2 :To add multiple files to the staging area with a single command:
+
+
+Chapter -3
+#Git branching allows users to experiment with different versions of a project by checking out separate branches to work on.
+The following commands are useful in the Git branch workflow.
+a.git branch: Lists all a Git project's branches.
+b.git branch branch_name: Creates a new branch.
+c.git checkout branch_name: Used to switch from one branch to another.
+d.git merge branch_name: Used to join file changes from one branch to another.
+e.git branch -d branch_name: Deletes the branch specified.
+
+Chapter -4
+Now that you've merged origin/master into your local master branch, you're ready to contribute some work of your own. The workflow for Git collaborations typically follows this order:
+
+1.Fetch and merge changes from the remote
+2.Create a branch to work on a new project feature
+3.Develop the feature on your branch and commit your work
+4.Fetch and merge from the remote again (in case new commits were made while you were working)
+5.Push your branch up to the remote for review
+
+A Remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
+The Git Collaborative Workflow are steps that enable smooth project development when multiple collaborators are working on the same Git project.
+We also learned the following commands
+
+a.git clone: Creates a local copy of a remote.
+b.git remote -v: Lists a Git project's remotes.
+c.git fetch: Fetches work from the remote into the local copy.
+d.git merge origin/master: Merges origin/master into your local branch.
+e.git push origin <branch_name>: Pushes a local branch to the origin remote.
+
