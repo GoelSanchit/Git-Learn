@@ -7,7 +7,6 @@ d.git diff: shows the difference between the working directory and the staging a
 e.git commit: permanently stores file changes from the staging area in the repository
 f.git log: shows a list of all previous commits
 
-
 Chapter -2
 #Use Git Commands to backtrack in Git project:
 a.git checkout HEAD filename: Discards changes in the working directory.
